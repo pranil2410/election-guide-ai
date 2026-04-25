@@ -1,0 +1,64 @@
+.navigation {
+  position: relative;
+}
+
+.desktop-nav {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-btn {
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-tertiary);
+}
+
+.nav-btn.active {
+  color: var(--accent-primary);
+  background-color: var(--bg-tertiary);
+}
+
+.mobile-toggle {
+  display: none;
+  color: var(--text-primary);
+  padding: 0.5rem;
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 200px;
+  z-index: 50;
+}
+
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.mobile-nav .nav-btn {
+  width: 100%;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-toggle {
+    display: block;
+  }
+}

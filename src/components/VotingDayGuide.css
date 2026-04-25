@@ -1,0 +1,54 @@
+.voting-day-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.prep-section {
+  padding: 2rem;
+}
+
+.doc-list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.grid-dos-donts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid-dos-donts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.dos-panel, .donts-panel {
+  padding: 2rem;
+}
+
+.info-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.info-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--text-primary);
+  font-weight: bold;
+}
