@@ -1,16 +1,89 @@
-# React + Vite
+🚀 Election Guide AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application that simplifies the election process through step-by-step guidance, eligibility checking, personalized timelines, and a smart chatbot.
 
-Currently, two official plugins are available:
+🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://pranil2410.github.io/election-guide-ai/
 
-## React Compiler
+📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Election Guide AI is designed to help first-time voters and citizens understand the complete election process in a simple and interactive way.
 
-## Expanding the ESLint configuration
+It provides:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clear step-by-step guidance
+Personalized election timelines
+Eligibility checking
+Real-time assistance via chatbot
+✨ Features
+🧭 Process Guide
+Learn how elections work step-by-step
+Covers registration → voting → results
+📅 Timeline Assistant
+View important election dates based on your state
+✅ Eligibility Checker
+Instantly check if you are eligible to vote
+🗳️ Voting Day Guide
+Do’s and Don’ts
+Step-by-step voting instructions
+📚 Awareness & Education
+Myth vs Fact interactive section
+Importance of voting
+💬 Chatbot Assistant
+Answers common questions like:
+“How do I vote?”
+“What documents are required?”
+“Where is my polling booth?”
+🛠️ Tech Stack
+⚛️ React (Vite)
+🎨 Vanilla CSS
+🧠 Rule-based Chatbot System
+🏗️ Project Structure
+src/
+ ├── components/
+ │    ├── Home.jsx
+ │    ├── ProcessGuide.jsx
+ │    ├── TimelineAssistant.jsx
+ │    ├── EligibilityChecker.jsx
+ │    ├── VotingDayGuide.jsx
+ │    ├── AwarenessEducation.jsx
+ │    └── Chatbot.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+🚀 Installation & Setup
+git clone https://github.com/pranil2410/election-guide-ai.git
+cd election-guide-ai
+npm install
+npm run dev
+📦 Deployment
+
+This project is deployed using GitHub Pages.
+
+To deploy:
+
+npm run deploy
+🎯 Purpose
+
+The goal of this project is to:
+
+Simplify the election process
+Increase voter awareness
+Encourage informed participation
+🔮 Future Enhancements
+Real-time election data integration
+AI-powered chatbot (NLP आधारित)
+Polling booth locator (Maps integration)
+Multi-language support
+👨‍💻 Author
+
+Pranil Belge
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repo
+🍴 Fork it
+📢 Share it
